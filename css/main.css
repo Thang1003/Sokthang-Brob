@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* .container{
+    width: 100px;
+    height: 100vh;
+    padding: 10px;
+    background-color: rgb(12, 190, 230);
+    clip-path: polygon(0 1%, 0% 100%, 100% 100%);
+} */
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: rgb(48, 42, 42);
+}
+ul li{
+    padding: 10px;
+}
+ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+}
